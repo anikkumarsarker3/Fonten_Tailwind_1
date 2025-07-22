@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+/* @import "tailwindcss"; */
+.eb-garamond-normal {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+header,main,footer{
+    max-width: 1480px;
+    margin: 0 auto;
+}
+.logo-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner h2{
+   font-size: 72px;
+   font-weight: bolder;
+   width: 665px;
+   color: #FFFFFF;
+} 
+.banner p{
+   font-size: 16px;
+   font-weight: normal;
+   width: 680px;
+   color: #E7E7E7;
+} 
+
+.button{
+    background-color: #B68C5A;
+    width: 150px;
+    height: 65px;
+    padding: 17px 39px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    margin-left: 10px;
+}
