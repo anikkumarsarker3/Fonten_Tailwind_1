@@ -13,7 +13,12 @@ header,main,footer{
     display: flex;
     justify-content: space-around;
 }
-
+.logo{
+    background-image: url('../images/logo.png');
+}
+.banner{
+    background-image: url('../images/banner.png');
+}
 .banner h2{
    font-size: 72px;
    font-weight: bolder;
